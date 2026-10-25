@@ -1,0 +1,47 @@
+{
+  "categorias": [
+    {
+      "nombre": "Platillos Principales",
+      "platillos": [
+        { "nombre": "Pollo al chipotle", "precio": "$65 Orden", "descripcion": "Con arroz blanco" },
+        { "nombre": "Albóndigas", "precio": "", "descripcion": "" },
+        { "nombre": "Bistec con papas", "precio": "", "descripcion": "" },
+        { "nombre": "Enchiladas suizas", "precio": "4 x $80", "descripcion": "" },
+        { "nombre": "Costilla con calabacitas", "precio": "", "descripcion": "" },
+        { "nombre": "Chicharrón en salsa verde / roja", "precio": "", "descripcion": "" },
+        { "nombre": "Chilaquiles", "precio": "", "descripcion": "" },
+        { "nombre": "Tacos de panela", "precio": "", "descripcion": "" },
+        { "nombre": "Enjitomatadas", "precio": "", "descripcion": "" },
+        { "nombre": "Pollo a la plancha", "precio": "", "descripcion": "" },
+        { "nombre": "Carne asada", "precio": "", "descripcion": "" },
+        { "nombre": "Sopes verdes", "precio": "$50 c/u", "descripcion": "" },
+        { "nombre": "Chamorros", "precio": "", "descripcion": "" },
+        { "nombre": "Pastel de carne", "precio": "", "descripcion": "" },
+        { "nombre": "Albóndigas al chipotle", "precio": "", "descripcion": "" },
+        { "nombre": "Tatemado", "precio": "", "descripcion": "" },
+        { "nombre": "Hígado encebollado", "precio": "", "descripcion": "" },
+        { "nombre": "Pechugas de pollo rellenas", "precio": "", "descripcion": "" },
+        { "nombre": "Pozole", "precio": "", "descripcion": "" },
+        { "nombre": "Enchiladas rojas / dulces", "precio": "", "descripcion": "" }
+      ]
+    },
+    {
+      "nombre": "Postres",
+      "platillos": [
+        { "nombre": "Chocoflan", "precio": "", "descripcion": "" },
+        { "nombre": "Flan napolitano", "precio": "", "descripcion": "" },
+        { "nombre": "Arroz con leche", "precio": "", "descripcion": "" },
+        { "nombre": "Volteado de piña", "precio": "", "descripcion": "" },
+        { "nombre": "Capirotada", "precio": "", "descripcion": "" },
+        { "nombre": "Carlotas", "precio": "", "descripcion": "" },
+        { "nombre": "Gelatina de mosaico", "precio": "", "descripcion": "" }
+      ]
+    },
+    {
+      "nombre": "Bebidas",
+      "platillos": [
+        { "nombre": "Aguas frescas", "precio": "$25/L", "descripcion": "Sabores: Arroz, Jamaica, Limón, Pepino, Piña, Guayaba, Maracuyá" }
+      ]
+    }
+  ]
+}

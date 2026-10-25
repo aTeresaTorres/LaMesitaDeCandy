@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mesita de Candy | Rico Pozole y Enchiladas</title>
+    <meta name="description" content="Comida casera los sábados. Pozole, enchiladas, postres y más. ¡Haz tu pedido!">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header>
+        <div class="logo">La Mesita de Candy</div>
+        <nav>
+            <a href="#menu">Menú</a>
+            <a href="#info">Información</a>
+            <a href="#contacto" class="btn-primary">Pedir</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Portada con Carrusel) -->
+    <section class="hero">
+        <!-- Capa de imágenes de fondo -->
+        <div class="hero-slider">
+            <!-- IMPORTANTE: Sube tus fotos a assets/img/ y pon sus nombres aquí -->
+            <div class="slide active" style="background-image: url('assets/img/plato01.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/img/plato02.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/img/plato03.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/img/plato04.jpeg');"></div>
+        </div>
+
+        <!-- Contenido encima del carrusel -->
+        <div class="hero-content">
+            <h1>Rico Pozole y Enchiladas</h1>
+            <p class="subtitle">Comida casera hecha con amor. Solo los sábados.</p>
+            <a href="https://wa.me/523121796838?text=Hola,%20quiero%20hacer%20un%20pedido%20a%20La%20Mesita%20de%20Candy" target="_blank" class="btn-whatsapp">
+                Pedir por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Menú Dinámico -->
+    <section id="menu" class="menu-section">
+        <h2>Nuestro Menú</h2>
+        <p class="menu-note">Todos los sábados a partir de las 11:30 AM.<br>Pregunta por los platillos del día.<br><br>Sobre pedido</p>
+        
+        <!-- Aquí JavaScript inyectará el menú desde el JSON -->
+        <div id="menu-container" class="menu-container">
+            <!-- Ejemplo de cómo se verá (lo genera JS) -->
+        </div>
+    </section>
+
+    <!-- Info y Ubicación -->
+    <section id="info" class="info-section">
+        <div class="info-card">
+            <h3>📍 Ubicación</h3>
+            <p>Balvino Dávalos 416, Fátima</p>
+        </div>
+        <div class="info-card">
+            <h3>🕒 Horario</h3>
+            <p>Sábados a partir de las 11:30 AM</p>
+        </div>
+        <div class="info-card">
+            <h3>📞 Contacto</h3>
+            <p>312 179 6838</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <p>&copy; 2026 La Mesita de Candy. Hecho con ❤️ para compartir en familia.</p>
+    </footer>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
